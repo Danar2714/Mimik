@@ -240,11 +240,7 @@ Developed by Danilo Arregui as a personal project to explore Linux-like interfac
 
 ## 📄 License
 
-This project is open source and available for educational and personal use.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
+This project is open source and available for educational and personal use, under GPL-2.0 license.
 
 ---
 
