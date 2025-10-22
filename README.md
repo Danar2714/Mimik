@@ -231,6 +231,18 @@ ShellOutput::print("Text");      // Print without newline
 ShellOutput::println("Text");    // Print with newline
 ShellOutput::printf("Value: %d\n", value);  // Formatted output
 ```
+## ⚠️ Security Disclaimer
+
+Currently, the project uses **Telnet** (port 23) for remote shell access instead of SSH. This implementation was chosen for ease of development and testing purposes during the evaluation phase of remote connections and mirrored shell sessions.
+
+**Important**: Telnet transmits all data, including passwords and commands, in **plain text** without encryption. This makes it vulnerable to network sniffing and man-in-the-middle attacks.
+
+### Planned Security Enhancement
+
+In future versions, the files `sshServer.h` and `sshServer.cpp` are intended to implement a proper **SSH session** instead of Telnet, providing:
+- Encrypted communication
+- Authentication mechanisms
+- Secure remote access
 
 ## 📚 Credits
 
