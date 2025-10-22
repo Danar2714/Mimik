@@ -5,8 +5,8 @@ This repository contains the source code, technical documentation, and auxiliary
 ## 📁 Repository Structure
 
 ```
-mimik/
-├── src/                          # Main source code
+Mimik/
+├── mimik/                       # Main source code
 │   ├── mimik.ino                # Main Arduino sketch
 │   ├── shell.h                  # Shell core definitions
 │   ├── shell.cpp                # Shell core implementation
@@ -18,9 +18,7 @@ mimik/
 │   ├── networkConfig.cpp        # Network persistence implementation
 │   ├── sshServer.h              # Telnet server definitions
 │   └── sshServer.cpp            # Telnet server implementation
-├── docs/                        # Auxiliary files (if any)
-├── README.md                    # This file
-└── .gitignore                   # Git exclusions
+└── README.md                    # This file
 ```
 
 ## 🔧 Requirements
