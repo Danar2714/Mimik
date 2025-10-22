@@ -1,4 +1,5 @@
-# Mimik - Mini Shell for ESP32
+# Mimik - Mini Shell for ESP32 <img width="80" alt="mimikv2" src="https://github.com/user-attachments/assets/4bad50b4-5a3a-4178-bcbd-bb8b7f2f9d14" />
+
 
 This repository contains the source code, technical documentation, and auxiliary files for **mimik**, a system that tries to mimic a Linux-like shell designed for ESP32-CAM microcontrollers. The project was developed to practice Linux command-line operations and explore interactive ways to interface with IoT devices, making them behave more like traditional Linux systems or networking equipment.
 
